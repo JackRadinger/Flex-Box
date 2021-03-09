@@ -13,12 +13,20 @@ body {
   padding: 4px;
   color:white;
   display: flex;
-  align-content: space-between;
+  /* align-content: space-between; */
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-nav__group {
-  display: flexbox;
+  display: flex;
+  
+  margin: 1px;
+  padding:10px;
+}
 
+#trello-logo {
+  align-self: center;
 }
 
 
